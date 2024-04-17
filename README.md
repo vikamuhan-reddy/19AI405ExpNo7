@@ -1,7 +1,7 @@
 # ExpNo 7 : Implement Alpha-beta pruning of Minimax Search Algorithm for a Simple TIC-TAC-TOE game</h1> 
 ### Name: Vikamuhan.N</h3>
 ### Register Number:212223240181 </h3>
-## Aim:
+# Aim:
 <p>
 Implement Alpha-beta pruning of Minimax Search Algorithm for a Simple TIC-TAC-TOE game
 </p>
