@@ -171,4 +171,5 @@ play_game()
 <img width="1280" alt="Screen Shot 1946-01-27 at 20 58 26" src="https://github.com/vikamuhan-reddy/19AI405ExpNo7/assets/144928933/f6b108e7-1c84-4129-be8f-7511d6ab68f9">
 <img width="1280" alt="Screen Shot 1946-01-27 at 20 58 49" src="https://github.com/vikamuhan-reddy/19AI405ExpNo7/assets/144928933/40985ea2-8ec4-4305-912c-3ba4c8b5ab41">
 
-
+## Result 
+Implement Alpha-beta pruning of Minimax Search Algorithm for a Simple TIC-TAC-TOE game is successfully done
