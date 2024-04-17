@@ -25,8 +25,8 @@ When added to a simple minimax algorithm, it gives the same output but cuts off 
 
 <hr>
 
-<p>program
-```py
+<p>program</p>
+``` py
 
 import math
 X = 'X'
@@ -153,8 +153,8 @@ def play_game():
 
 play_game()
 ```
-</p>
-<hr>
+
+
 
 <h2>Sample Input and Output:</h2>
 
