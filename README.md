@@ -25,11 +25,9 @@ When added to a simple minimax algorithm, it gives the same output but cuts off 
 <hr>
 
 <h2>program</h2>
-```py
-
+```
+py
 import math
-
-
 X = 'X'
 O = 'O'
 EMPTY = None
@@ -156,7 +154,6 @@ def play_game():
 
 
 play_game()
-
 ```
 
 
