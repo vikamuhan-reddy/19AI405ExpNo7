@@ -1,7 +1,7 @@
-<h1>ExpNo 7 : Implement Alpha-beta pruning of Minimax Search Algorithm for a Simple TIC-TAC-TOE game</h1> 
-<h3>Name: Vikamuhan.N</h3>
-<h3>Register Number:212223240181 </h3>
-<H3>Aim:</H3>
+# ExpNo 7 : Implement Alpha-beta pruning of Minimax Search Algorithm for a Simple TIC-TAC-TOE game</h1> 
+### Name: Vikamuhan.N</h3>
+### Register Number:212223240181 </h3>
+### Aim:
 <p>
 Implement Alpha-beta pruning of Minimax Search Algorithm for a Simple TIC-TAC-TOE game
 </p>
@@ -25,7 +25,7 @@ When added to a simple minimax algorithm, it gives the same output but cuts off 
 
 <hr>
 
-<h3>program</h3>
+<p>program
 ```py
 
 import math
@@ -153,7 +153,7 @@ def play_game():
 
 play_game()
 ```
-
+</p>
 <hr>
 
 <h2>Sample Input and Output:</h2>
