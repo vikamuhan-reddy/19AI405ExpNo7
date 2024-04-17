@@ -22,11 +22,12 @@ recursively evaluates all possible moves and their potential outcomes, creating 
 Alpha–Beta (𝛼−𝛽) algorithm is actually an improved minimax using a heuristic. It stops evaluating a move when it makes sure that it’s worse than a previously examined move. Such moves need not to be evaluated further.
 
 When added to a simple minimax algorithm, it gives the same output but cuts off certain branches that can’t possibly affect the final decision — dramatically improving the performance
+
 <hr>
 
-<h2>program</h2>
-```
-py
+<h3>program</h3>
+```py
+
 import math
 X = 'X'
 O = 'O'
@@ -39,15 +40,12 @@ def print_board(board):
         print('---------')
 
 def check_winner(board, player):
-    # Check rows
     for row in board:
         if all(cell == player for cell in row):
             return True
-    # Check columns
     for col in range(3):
         if all(board[row][col] == player for row in range(3)):
             return True
-    # Check diagonals
     if all(board[i][i] == player for i in range(3)) or all(board[i][2-i] == player for i in range(3)):
         return True
     return False
@@ -156,6 +154,7 @@ def play_game():
 play_game()
 ```
 
+<hr>
 
 <h2>Sample Input and Output:</h2>
 
@@ -165,9 +164,12 @@ play_game()
 ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/440797bd-53cb-49c1-b18d-89776864c3e7)
 ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/81575a16-26b2-46f1-a8ac-27c9ed0a0fe5)
 
-<H2>output</H2>
+<hr>
+
+<h2>output</h2>
 
 <img width="1280" alt="Screen Shot 1946-01-27 at 20 58 26" src="https://github.com/vikamuhan-reddy/19AI405ExpNo7/assets/144928933/f6b108e7-1c84-4129-be8f-7511d6ab68f9">
 <img width="1280" alt="Screen Shot 1946-01-27 at 20 58 49" src="https://github.com/vikamuhan-reddy/19AI405ExpNo7/assets/144928933/40985ea2-8ec4-4305-912c-3ba4c8b5ab41">
 
+<hr>
 
