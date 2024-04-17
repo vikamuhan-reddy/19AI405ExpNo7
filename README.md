@@ -29,18 +29,17 @@ When added to a simple minimax algorithm, it gives the same output but cuts off 
 
 import math
 
-# Constants for representing the players and empty cells
+
 X = 'X'
 O = 'O'
 EMPTY = None
 
-# Function to print the current board state
+
 def print_board(board):
     for row in board:
         print(' | '.join(cell if cell is not None else ' ' for cell in row))
         print('---------')
 
-# Function to check if a player has won
 def check_winner(board, player):
     # Check rows
     for row in board:
@@ -55,15 +54,15 @@ def check_winner(board, player):
         return True
     return False
 
-# Function to check if the game has ended in a draw
+
 def check_draw(board):
     return all(cell is not None for row in board for cell in row)
 
-# Function to get the available moves on the board
+
 def get_available_moves(board):
     return [(row, col) for row in range(3) for col in range(3) if board[row][col] is None]
 
-# Function to evaluate the current state of the board
+
 def evaluate(board):
     if check_winner(board, X):
         return 1
@@ -74,7 +73,7 @@ def evaluate(board):
     else:
         return None
 
-# Function for the Minimax algorithm with alpha-beta pruning
+
 def minimax(board, depth, alpha, beta, maximizing_player):
     eval_result = evaluate(board)
     if eval_result is not None:
@@ -105,7 +104,7 @@ def minimax(board, depth, alpha, beta, maximizing_player):
                 break
         return min_eval
 
-# Function to find the best move using Minimax with alpha-beta pruning
+
 def find_best_move(board):
     best_move = None
     best_eval = -math.inf
@@ -121,7 +120,7 @@ def find_best_move(board):
             best_move = move
     return best_move
 
-# Function to play the game
+
 def play_game():
     board = [[EMPTY, EMPTY, EMPTY],
              [EMPTY, EMPTY, EMPTY],
@@ -155,7 +154,7 @@ def play_game():
 
         current_player = O if current_player == X else X
 
-# Start the game
+
 play_game()
 
 ```
