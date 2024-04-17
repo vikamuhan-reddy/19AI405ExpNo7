@@ -1,7 +1,7 @@
 # ExpNo 7 : Implement Alpha-beta pruning of Minimax Search Algorithm for a Simple TIC-TAC-TOE game</h1> 
 ### Name: Vikamuhan.N</h3>
 ### Register Number:212223240181 </h3>
-### Aim:
+## Aim:
 <p>
 Implement Alpha-beta pruning of Minimax Search Algorithm for a Simple TIC-TAC-TOE game
 </p>
@@ -9,15 +9,16 @@ Implement Alpha-beta pruning of Minimax Search Algorithm for a Simple TIC-TAC-TO
 
 <h3>Improve the decision-making efficiency of the computer player by reducing the number of evaluated nodes in the game tree.</h3>
 <h3>Tic-Tac-Toe game implementation incorporating the Alpha-Beta pruning and the Minimax algorithm with Python Code.</h3>
-<h1>IMPLEMENTATION</h1>
+
+## IMPLEMENTATION
 
 The project involves developing a Tic-Tac-Toe game implementation incorporating the Alpha-Beta pruning with the Minimax algorithm. Using this algorithm, the computer player analyzes the game state, evaluates possible moves, and selects the optimal action based on the anticipated outcomes.
 
-<h1>The Minimax algorithm</h1>
+### The Minimax algorithm
 
 recursively evaluates all possible moves and their potential outcomes, creating a game tree.
 
-<h1>Alpha-Beta pruning</h1>
+### Alpha-Beta pruning
 
 Alpha–Beta (𝛼−𝛽) algorithm is actually an improved minimax using a heuristic. It stops evaluating a move when it makes sure that it’s worse than a previously examined move. Such moves need not to be evaluated further.
 
@@ -25,7 +26,7 @@ When added to a simple minimax algorithm, it gives the same output but cuts off 
 
 <hr>
 
-<p>program</p>
+## program
 ``` py
 
 import math
@@ -156,7 +157,7 @@ play_game()
 
 
 
-<h2>Sample Input and Output:</h2>
+## Sample Input and Output:
 
 ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/8d5e329a-9aff-41a6-bcf0-46efa10e1b92)
 ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/438b242d-54ba-443e-b040-a936e6ae3b55)
@@ -164,12 +165,10 @@ play_game()
 ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/440797bd-53cb-49c1-b18d-89776864c3e7)
 ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/81575a16-26b2-46f1-a8ac-27c9ed0a0fe5)
 
-<hr>
 
-<h2>output</h2>
+## output
 
 <img width="1280" alt="Screen Shot 1946-01-27 at 20 58 26" src="https://github.com/vikamuhan-reddy/19AI405ExpNo7/assets/144928933/f6b108e7-1c84-4129-be8f-7511d6ab68f9">
 <img width="1280" alt="Screen Shot 1946-01-27 at 20 58 49" src="https://github.com/vikamuhan-reddy/19AI405ExpNo7/assets/144928933/40985ea2-8ec4-4305-912c-3ba4c8b5ab41">
 
-<hr>
 
